@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+
+  <!-- Header Section -->
+  <header class="bg-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center py-6 px-4 md:px-10">
+      <div class="text-2xl font-bold">Logo</div>
+      <nav>
+        <ul class="flex space-x-8">
+          <li><a href="#" class="hover:text-blue-500">Home</a></li>
+          <li><a href="#" class="hover:text-blue-500">Courses</a></li>
+          <li><a href="#" class="hover:text-blue-500">About</a></li>
+          <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600">Sign Up</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-purple-500 to-blue-500 h-screen flex items-center text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-5xl font-bold mb-4">Good teachers create good learning</h1>
+      <p class="text-lg mb-8">Join our courses and get the best education from expert instructors.</p>
+      <a href="#" class="bg-white text-blue-500 py-3 px-6 rounded-lg shadow-lg hover:bg-gray-200">Get Started</a>
+    </div>
+    <div class="absolute right-0 bottom-0 w-1/2">
+      <img src="https://via.placeholder.com/600x600" alt="Hero Image" class="w-full h-auto">
+    </div>
+  </section>
+
+  <!-- Featured Courses Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12">Featured Courses</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <img src="https://via.placeholder.com/150" alt="Course 1" class="mb-4 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Course Title 1</h3>
+          <p>Brief description about the course.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <img src="https://via.placeholder.com/150" alt="Course 2" class="mb-4 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Course Title 2</h3>
+          <p>Brief description about the course.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <img src="https://via.placeholder.com/150" alt="Course 3" class="mb-4 rounded-lg">
+          <h3 class="text-2xl font-semibold mb-4">Course Title 3</h3>
+          <p>Brief description about the course.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-12">Why choose our courses?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Expert Instructors</h3>
+          <p>Learn from industry leaders who are passionate about teaching.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Flexible Learning</h3>
+          <p>Study at your own pace, wherever you are in the world.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Global Recognition</h3>
+          <p>Our certifications are recognized globally by top companies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Categories Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12">Top Categories</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg">
+          <h3 class="text-xl font-semibold">Development</h3>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg">
+          <h3 class="text-xl font-semibold">Design</h3>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg">
+          <h3 class="text-xl font-semibold">Marketing</h3>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg">
+          <h3 class="text-xl font-semibold">Business</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="bg-blue-500 py-20 text-white text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-6">Ready for our latest updates?</h2>
+      <p class="text-lg mb-6">Subscribe to our newsletter to stay updated.</p>
+      <form class="flex justify-center">
+        <input type="email" placeholder="Enter your email" class="p-3 rounded-l-lg w-1/2">
+        <button type="submit" class="bg-white text-blue-500 p-3 rounded-r-lg">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12">What Our Students Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg">
+          <p>"This course transformed my career!"</p>
+          <span class="font-semibold">- Student 1</span>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg">
+          <p>"I learned so much and gained real skills."</p>
+          <span class="font-semibold">- Student 2</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-10">
+    <div class="container mx-auto text-center">
+      <div class="flex justify-center space-x-4 mb-4">
+        <a href="#" class="hover:text-blue-500">Facebook</a>
+        <a href="#" class="hover:text-blue-500">Twitter</a>
+        <a href="#" class="hover:text-blue-500">LinkedIn</a>
+        <a href="#" class="hover:text-blue-500">Instagram</a>
+      </div>
+      <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
